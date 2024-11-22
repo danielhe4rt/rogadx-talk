@@ -1,6 +1,11 @@
-# Developer Relations: a área mais comunicativa do meio dev (feat. RPG)
+<div class="bg-gray-900 bg-opacity-50 p-5 rounded-lg border-1 border-gray-700">
 
-Criar aplicações web é legal, mas e quando falamos de extensões pra browser que precisam ser monstruosamente simples e rápidas? 
+# Developer Relations
+## A área mais comunicativa do "meio" dev 
+
+Como produtos "open source" conseguem sobreviver por tanto tempo com código livre?
+
+Nessa apresentação, abordaremos um pouco da área que mantem comunidades e produtos de para desenvolvedores ao redor do mundo!
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
@@ -13,6 +18,8 @@ Criar aplicações web é legal, mas e quando falamos de extensões pra browser 
     class="text-xl slidev-icon-btn opacity-50 !border-none !hover:text-white">
     <carbon-logo-github /> 
   </a>
+</div>
+
 </div>
 
 <!--

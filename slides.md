@@ -39,7 +39,6 @@ src: ./pages/4-storytelling.md
 hide: false
 ---
 
-
 ---
 src: ./pages/5-nowadays.md
 hide: false

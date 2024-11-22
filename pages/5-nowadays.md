@@ -1,7 +1,11 @@
 ---
+
+---
+
+---
 layout: center
-transition: fade
 align: center
+transition: fade
 --- 
 
 # Timeskip pra 2024
@@ -9,6 +13,7 @@ align: center
 Como vai a vida? Cadê os projetos? Já publicou algo? Tá rico?
 
 > Muita variavel pra pouca constante - Reis, Daniel
+
 
 ---
 transition: fade-out
@@ -111,8 +116,8 @@ full_name: "Developer Advocate"
 Mas também meu trabalho é engajar comunidades na ideia de:
 
 - Promover código aberto pra comunidade local
-- Criar amostras/projetos usando ScyllaDB
-- Participar de eventos
+- Criar e Contribuir em amostras/projetos usando ScyllaDB
+- Participar de eventos ao redor do mundo
 - Fazer Lives aprendendo e ensinando tecnologias como:
 
 <v-click>
