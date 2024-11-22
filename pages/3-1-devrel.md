@@ -114,139 +114,152 @@ layoutClass: gap-16
 
 
 <v-click class="text-center">
-  <p>E eu vou te mostrar as "profissões" da área com um comparativo nerdolasso, se liga :p</p>
+  <p>E eu vou te mostrar as "profissões" dessa área, se liga.</p>
 </v-click>
 
 </div>
 
 ---
-layout: two-cols-header
-layoutClass: "gap-5"
+layout: whoami
+image: https://github.com/danielhe4rt.png
+handle: "@danielhe4rt"
+full_name: "Daniel Reis"
+has_socials: true
 ---
 
-## Developer Relations: Cargos
+# Developer Relations
+## Developer Advocate
 
-::left::
 
-<img width="240" class="rounded" src="https://i.imgur.com/FSRnOo8.png">
+<v-clicks class="mt-5">
 
-::right::
+<div>
 
-## Guerreiro - Developer Advocate
+<h3 class="mt-5 text-slate mb-2">Descrição </h3>
 
-<v-clicks>
+* Linha de frente de Open Source com comunidades;
+* Pessoa extremamente técnica sobre o produto que advoga;
 
-* Nome da Carta: Guardião do Código
-* Descrição: Está na linha de frente, envolvendo e protegendo os interesses da comunidade através de opiniões construtivas.
-* Habilidades:
-  * Absorve opiniões negativas e converte em informações úteis para a equipe de produtos.
-  * Reunir desenvolvedores em torno de novas iniciativas ou funcionalidades, aumentando o envolvimento da comunidade.
+</div>
+
+<div>
+
+<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+
+* Absorve opiniões negativas e converte em informações úteis para a equipe de produtos;
+* Reunir desenvolvedores em torno de novas iniciativas ou funcionalidades, aumentando o envolvimento da comunidade;
+* Busca novos jeitos de expandir contribuições dentro do open source.
+
+</div>  
 
 </v-clicks>
 
 ---
-layout: two-cols-header
-layoutClass: gap-5
-layoutGap:
+layout: whoami
+image: https://github.com/erikaheidi.png
+handle: "@erikaheidi"
+full_name: "Erika Heidi"
+has_socials: true
 ---
 
-## Developer Relations: Cargos
 
-::left::
+# Developer Relations
+## Technical Writer
 
-<img width="260" class="rounded" src="https://i.imgur.com/FSRnOo8.png">
 
-::right::
+<v-clicks class="mt-5">
 
-## Mago - Technical Writer
+<div>
 
-<v-clicks>
+<h3 class="mt-5 text-slate mb-2">Descrição </h3>
 
-* Nome da Carta: Sábio da Documentação
-* Descrição: O Sábio da Documentação exerce o poder do conhecimento. Criam guias e recursos aprofundados que permitem as pessoas desenvolvedoras utilizarem o produto de forma eficaz.
-* Habilidades
-  * Transforma o jargão técnico complexo em conteúdo claro e digerível.
-  * Ilumina características ou funcionlidades obscuras, tornando-as acessíveis a todos.
-  * Atualiza continuamente a documentação para manter a informação atualizada.
+* Criam guias e recursos aprofundados que permitem as pessoas desenvolvedoras utilizarem o produto de forma eficaz
+
+</div>
+
+<div>
+
+<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+
+* Transforma o jargão técnico complexo em conteúdo claro e digerível.
+* Ilumina características ou funcionlidades obscuras, tornando-as acessíveis a todos.
+* Atualiza continuamente a documentação para manter a informação atualizada.
+
+</div>  
 
 </v-clicks>
 
 ---
-layout: two-cols-header
-layoutClass: gap-5
+layout: whoami
+image: https://github.com/luisleao.png
+handle: "@luisleao"
+full_name: "Luis Leão"
+has_socials: true
 ---
 
-## Developer Relations: Cargos
 
-::left::
+# Developer Relations
+## Developer Evangelist
 
-<img width="260" class="rounded" src="https://i.imgur.com/FSRnOo8.png">
 
-::right::
+<v-clicks class="mt-5">
 
-## Arqueiro / Developer Evangelist
+<div>
 
-<v-clicks>
+<h3 class="mt-5 text-slate mb-2">Descrição </h3>
 
-* Nome da Carta: Arauto da Inovação
-* Descrição: O Arauto da Inovação ataca rapidamente para espalhar o entusiamos sobre o produto. Com precisão, eles destinam o público certo atrés de palestras, demonstrações e criação de conteúdo.
-* Habilidades
-  * Captura o interesso das pessoas desenvolvedoras através de apresentações e demonstrações cativantes.
-  * Cria várias formas de conteúdo para atingir um público variado simultaneamente.
-  * Identifica tendências e oportunidades para posicionar o produto de forma eficaz.
+* Busca novos "leads" em eventos, lives e tudo que tiver um espaço pra se apresentar;
+* Tem iniciativas engajadoras usando a ferramenta que advoga.
+
+</div>
+
+<div>
+
+<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+
+* Captura o interesse das pessoas desenvolvedoras através de apresentações e demonstrações cativantes.
+* Cria várias formas de conteúdo para atingir um público variado simultaneamente.
+* Identifica tendências e oportunidades para posicionar o produto de forma eficaz.
+
+</div>  
 
 </v-clicks>
 
 ---
-layout: two-cols-header
-layoutClass: gap-5
+layout: whoami
+image: https://github.com/acamikuro.png
+handle: "@acamikuro"
+full_name: "Camila Rosa"
+has_socials: true
 ---
 
-## Developer Relations: Cargos
 
-::left::
+# Developer Relations
+## Community Manager
 
-<img width="260" class="rounded" src="https://i.imgur.com/FSRnOo8.png">
 
-::right::
+<v-clicks class="mt-5">
 
-## Bardo / Community Manager
+<div>
 
-<v-clicks>
+<h3 class="mt-5 text-slate mb-2">Descrição</h3>
 
-* Nome da Carta: Arauto da Inovação
-* Descrição: O Menestrel da União traz harmonia à comunidade. Através da comunicação e do envolvimento, promove um ambiente positivo onde as pessoas desenvolvedoras se sentem valorizadas e conectadas.
-* Habilidades
+* Através da comunicação e do envolvimento, promove um ambiente positivo onde as pessoas desenvolvedoras se sentem valorizadas e conectadas.
+
+</div>
+
+<div>
+
+<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+
   * Cria uma atmosfera acolhedora que incentiva a participação da comunidade.
   * Aumenta a atividade da comunidade atrvés de eventos, discussões e atualizações.
   * Difunde as tensões e resolve os conflitos dentro da comunidade. 
 
-</v-clicks>
-
----
-layout: two-cols-header
-layoutClass: gap-5
----
-
-## Developer Relations: Roles
-::left::
-
-<img width="260" class="rounded" src="https://i.imgur.com/FSRnOo8.png">
-
-::right::
-
-## Líder do Grupo  / DevRel Manager
-
-<v-clicks>
-
-* Nome da Carta: Arauto da Inovação
-* Descrição: O Estrategista da Sinergia lidera a equipe com uma compreensão abrangente de todos os cargos. Define a estratégia global, assegurando a coesão da equipe.
-* Habilidades
-  * Alinha com todos os cargos com objetivos em comum, maximizando a eficácia da equipe. 
-  * Traça o rumo para o crescimento da comunidade e a promoção do produto.
-  * Ajusta as estratégias com base nas opiniões construtivas e na evolução dos cenários.
+</div>  
 
 </v-clicks>
+
 
 ---
 layout: fact
@@ -283,7 +296,7 @@ image: https://i.imgur.com/Ln16XoA.png
 
 Tem uma lista bem grandinha até:
 
-<div class="flex flex-row space-x-5 text-sm">
+<div class="flex flex-row space-x-5 text-xs">
 
 <v-clicks class="space-y-3">
 
@@ -341,7 +354,7 @@ DevRel é movido totalmente a números
 
 <div v-click class="mt-5">
 
-> Não é só sobre os números em si, mas a qualidade das interações geradas pelos números!!
+> Não é só sobre "quantidade" de números em si, mas a qualidade das interações geradas pelos números!
 
 </div>
 
