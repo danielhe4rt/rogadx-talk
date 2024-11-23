@@ -64,30 +64,19 @@ full_name: "Developer Advocate"
 Meu trabalho então é engajar comunidades e fazer eles conhecerem isso aqui ó:
 
 
-<div class="flex flex-row items-center content-center">
+<v-clicks>
 
-<div>
+* ScyllaDB: 
+  * Banco de Dados Distribuido NoSQL de Alta Performance
+  * Feito em C++ (Gerenciamento de Memória Custom)
+  * Shard-aware > Threads
+  * Arquitetado baseado nas boas partes do CassandraDB (CQL) e do DynamoDB.
+* Para leigos:
+  * CQL = SQL só que você só consulta baseado em indexes;
+  * ScyllaDB faz "substituição imediata" com bancos como CassandraDB e DynamoDB por ter implementado os protocolos deles tendo performance superior. 
 
-<img src="https://i.imgur.com/t58EyWv.png" width="300"/>
 
-</div>
-
-<div>
-
-<v-click>
-
-<p class="text-6xl"> > </p>
-
-</v-click>
-</div>
-
-<div class="flex flex-col items-center px-10 ">
-
-<img width="150"  src="https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fcdn.freebiesupply.com%2Flogos%2Flarge%2F2x%2Fcassandra-logo-png-transparent.png&f=1&nofb=1&ipt=348faf0f9047a6054425da21802afe5f080aaaa1b97de5ec4a5a3b3354e14796&ipo=images"> 
-
-</div>
-
-</div>
+</v-clicks>
 
 ---
 layout: image

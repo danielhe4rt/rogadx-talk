@@ -380,15 +380,32 @@ Isso aqui é o principal pra te dar uma noção, mas você consegue monetizar ba
   - Garante que o código-fonte permaneça aberto mesmo em serviços web ou SaaS.
   - Incompatível com software proprietário, o que pode limitar a adoção comercial.
 
-
 </v-clicks>
 
-<div v-click class="mt-5">
+---
+layout: whoami
+layoutClass: gap-5
+image: https://i.imgur.com/QlzEv69.png
+---
 
-> Baseado na licença do seu software, você define se o seu produto tem a possibilidade de ser comercializado oou não, dando margem pra até onde você dá suporte pra versão Open Source.
+## Quais são esses "Sabores" de monetização? 
 
-</div>
+Até porquê ter a licença não te garante uma estratégia, né? Geralmente os sabores que a gente encontra no Open Source começam com:
 
+
+<v-clicks class="text-sm">
+
+- **Produto Open Source:**
+  - Aquele primeiro momento pra você testar o produto, fazer uma PoC e ver se tem um lugar na sua empresa;
+  - Porém você não tem suporte NENHUM e nenhuma garantia que as coisas vão funcionar.
+- **Licença Enterprise:**
+  - Você paga um valor mensal pra ter total suporte caso você tenha algum problema;
+  - Porém a infraestrutura é toda sua.
+- **Cloud SaaS**
+  - Plataforma totalmente gerenciada pela empresa/produto que você contrata onde você não tem NENHUMA dor de cabeça.
+
+
+</v-clicks>
 
 ---
 layout: section
