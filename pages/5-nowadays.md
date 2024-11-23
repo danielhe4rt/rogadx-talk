@@ -1,8 +1,4 @@
 ---
-
----
-
----
 layout: center
 align: center
 transition: fade

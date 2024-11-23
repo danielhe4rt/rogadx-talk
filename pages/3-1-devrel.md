@@ -121,9 +121,9 @@ layoutClass: gap-16
 
 ---
 layout: whoami
-image: https://github.com/danielhe4rt.png
-handle: "@danielhe4rt"
-full_name: "Daniel Reis"
+image: https://github.com/sabrinaaquino.png
+handle: "@sabrinaaquino - Qdrant"
+full_name: "Sabrina Aquino"
 has_socials: true
 ---
 
@@ -157,7 +157,7 @@ has_socials: true
 ---
 layout: whoami
 image: https://github.com/erikaheidi.png
-handle: "@erikaheidi"
+handle: "@erikaheidi - Chainguard"
 full_name: "Erika Heidi"
 has_socials: true
 ---
@@ -192,7 +192,7 @@ has_socials: true
 ---
 layout: whoami
 image: https://github.com/luisleao.png
-handle: "@luisleao"
+handle: "@luisleao - Twilio"
 full_name: "Luis Leão"
 has_socials: true
 ---
@@ -228,7 +228,7 @@ has_socials: true
 ---
 layout: whoami
 image: https://github.com/acamikuro.png
-handle: "@acamikuro"
+handle: "@acamikuro - Basement Devs"
 full_name: "Camila Rosa"
 has_socials: true
 ---
@@ -364,25 +364,42 @@ layoutClass: gap-5
 image: https://i.imgur.com/QlzEv69.png
 ---
 
-## Quais são as áreas que DevRel geralmente atua?
+## Como monetizamos um Produto de Código aberto? 
 
-Isso aqui provavelmente você já percebeu nesse ponto da palestra, mas:
+Isso aqui é o principal pra te dar uma noção, mas você consegue monetizar baseado na **licença do software!**
 
 <v-clicks class="text-sm">
 
-- **Software as a Service (SaaS)**
-- **Cloud Infrastructure**
-- **B2C Products**
-- **Machine Learning**
-- **Fintech**
+- **Licença MIT:**
+  - Pode usar, modificar, distribuir, incluuir em projetos proprietarios e revender.
+  - Precisa incluir aviso de copyright nos arquivos do projeto.
+- **Licença Apache 2.0:**
+  - Pode usar, modificar, distribuir, revender e consegue patentes relacionadas ao software.
+  - É necessário incluir o aviso de copyright, a licença e notas de alteração.
+- **Licença AGPL 3.0**
+  - Garante que o código-fonte permaneça aberto mesmo em serviços web ou SaaS.
+  - Incompatível com software proprietário, o que pode limitar a adoção comercial.
+
 
 </v-clicks>
 
 <div v-click class="mt-5">
 
-> Existem outras industrias que você pode atuar, desde que o produto seja focado para um Dev, é isso ai.
+> Baseado na licença do seu software, você define se o seu produto tem a possibilidade de ser comercializado oou não, dando margem pra até onde você dá suporte pra versão Open Source.
 
 </div>
+
+
+---
+layout: section
+layoutClass: gap-5
+---
+
+
+# Mas o DevRel tá pagando mais que o Little Tiger (tigrinho)?
+
+Vamo dar uma averiguada numa das métricas
+
 
 ---
 layout: image

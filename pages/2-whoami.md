@@ -17,7 +17,7 @@ Um brasileiro que faz códigos inúteis desde 2011 e gosta de ensinar pessoas so
 - <mdi-code-braces /> **Minha Stack** - PHP, Laravel, Rust, MySQL, ScyllaDB e o que você quiser.
 - <mdi-code-tags /> **Primeira linha de código** - Criando servidores de GTA San Andreas Multiplayer em 2011 (SA:MP)
 - <mdi-guitar-electric /> **Musicista** - Toco uns vários instrumentos de corda
-- <mdi-microphone /> **Pro Player de Karaoke** - Atualmente Challenger 1350PDL a liga do Frank Sinatra
+- <mdi-microphone /> **Pro Player de Karaoke** - Atualmente Challenger 1350PDL na liga do Frank Sinatra
   
 > <mdi-github class="text-1xl"/> Mais infos no GitHub [github.com/danielhe4rt](https://github.com/danielhe4rt)
 

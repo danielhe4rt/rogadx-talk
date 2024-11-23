@@ -1,12 +1,12 @@
 ---
 layout: center
 layoutClass: gap-16
-name: "Developer Relations: Minha perspectiva"
+name: "Developer Relations: Minha perspectiva!"
 ---
 
 <div class="text-center">
 
-# Developer Relations: da minha perspective
+# Developer Relations: da minha perspectiva
 Vou apresentar um pouco do meu trabalho e da minha história com a comunidade que eu evangelizo/advogo 
 
 <v-click>
