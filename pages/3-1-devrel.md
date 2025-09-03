@@ -3,10 +3,12 @@ layout: statement
 layoutClass: gap-16
 ---
 
-## Você participa ou já particiou de alguma comunidade?
+# Você já ouviu o termo aplicação "Legada"
 
 <v-click>
-  <p>Provavelmente sim! Mas vamo quebrar isso um pouco.</p>
+  
+## Provavelmente sim! Mas vamo quebrar isso um pouco.
+
 </v-click>
 
 ---
@@ -14,424 +16,342 @@ layout: two-cols
 layoutClass: gap-16
 ---
 
-## Provavelmente você faz parte de uma comunidade
+## Provavelmente você já viu algum meme do tipo
 
-<h3 class="my-3 text-gray-100"> Tipos de comunidade </h3>
+<h3 class="my-3 text-gray-100"> Tipos de Cagadas "Legadão" </h3>
 
 <v-clicks class="text-gray-200" depth="2">
 
-- **Jogos:**
-  - *LevelUp Games*
-  - *WebCheats*
-- **Discord:**
-  - Grupos de Estudos
-  - Assistir filmes em grupo
-- e muitas outras!
+
+- *Hadouken*
+- *Bug Buy*
+- *SQL Injection 4Noobs*
+- *Comentários*
+- *Integrações Duvidosas*
+- **Entre vários outros**
 
 </v-clicks>
 
 ::right:: 
 
-<div v-if="$clicks == 2">
-  <img src="https://i.imgur.com/5K1O2aT.png">
+## Snippet
+
+<br>
+
+<div v-if="$clicks == 1">
+
+```php
+$tempo = rand(1, 20); // Tempo aleatório de carregamento
+echo "Carregando Hadouken por {$tempo} segundos...\n";
+
+if ($tempo > 0) {
+    if ($tempo < 5) {
+        echo "Energia baixinha... 🤏\n";
+        if ($tempo == 1) {
+            echo "Só um espirro de energia. 😅\n";
+        } else {
+            if ($tempo == 2) {
+                echo "Quase nada ainda...\n";
+            } else {
+                if ($tempo == 3) {
+                    echo "Tá crescendo... um pouco. 💪\n";
+                } else {
+                    echo "Quase lá...\n";
+                }
+            }
+        }
+    }
+}
+
+```
 </div>
 
+<div v-if="$clicks == 2">
+
+```php
+// Sistema de compra FODA 100% aprovado
+// Por: juninhogameplays-senior-dev-confia
+
+try {
+    processarPagamento();
+    atualizarEstoque();
+    enviarNotaFiscal();
+} catch (Exception $e) {
+    // Nada, absolutamente nada. 
+    // O cliente vai ver "Processando..." pra sempre.
+    // Talvez receber um tijolo numa caixa de sapato?
+}
+```
+
+</div>
 <div v-if="$clicks == 3">
-  <img src="https://i.imgur.com/dF6fGG1.png">
+  
+```php
+public function criarTreta()
+{
+    // Recebendo dados direto da request sem validação
+    $titulo = $_POST['titulo'];
+    $descricao = $_POST['descricao'];
+
+    // confiando cegamente no cliente
+    $usuario = $_POST['usuario']; 
+
+    // Concatenando SQL na mão, vulnerável a SQL Injection
+    $db = new PDO('mysql:host=localhost;dbname=treta_db', 'root', '');
+    $db->query("
+      INSERT INTO tretas (titulo, descricao, usuario) 
+        VALUES 
+      ('$titulo', '$descricao', '$usuario')
+    ");
+
+    echo "Treta criada!"; // sem status code, sem JSON, só na fé
+}
+```
 </div>
+
+<div v-if="$clicks == 4">
+  
+```php
+// // Antigo sistema de login ultra-secreto 🤐
+// // $usuario = $_POST['usuario'];
+// // $senha = $_POST['senha'];
+// // if ($usuario == "admin" && $senha == "1234") {
+// //     // echo "Bem-vindo, admin!";
+// //     // // Redireciona para a dashboard (hoje nem tem mais dashboard...)
+// //     // header("Location: /painel");
+// // } else {
+// //     // echo "Acesso negado.";
+// // }
+
+// // Backup da função de cálculo do imposto, mas ninguém usa isso faz 2 anos 😴
+// // function calculaImposto($valor) {
+// //     $aliquota = 0.27;
+// //     $imposto = $valor * $aliquota;
+// //     return $imposto;
+// // }
+
+// // // Sistema antigo de envio de email com mail()
+// // // $to = "cliente@example.com";
+// // // $subject = "Confirmação do pedido";
+// // // $message = "Seu pedido foi confirmado!";
+// // // $headers = "From: noreply@example.com";
+// // // mail($to, $subject, $message, $headers);
+```
+
+</div>
+
 <div v-if="$clicks == 5">
-  <img src="https://i.imgur.com/QEY2P1w.png">
-</div>
-<div v-if="$clicks == 6">
-  <img src="https://i.imgur.com/Fv0641o.png">
+
+```php
+$url = "https://api.exemplo.com/v1/dados";
+$apiKey = "SUA_API_KEY_AQUI_VERSIONADA_PQ_SIM";
+
+$ch = curl_init();
+
+curl_setopt($ch, CURLOPT_URL, $url);
+curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+curl_setopt($ch, CURLOPT_HTTPHEADER, [
+    "Authorization: Bearer {$apiKey}",
+    "Accept: application/json"
+]);
+
+$response = curl_exec($ch);
+curl_close($ch);
+
+// Sem validação, sem ver se veio ok
+echo $response;
+```
+
 </div>
 
 <!-- - Communities are everywhere, and we often participate without even realizing it. -->
 <!-- - These communities shape our experiences and skills. -->
 
 ---
-layout: two-cols
+layout: quote
 layoutClass: gap-16
 ---
 
-## O poder das comunidades
+# Mas como isso chega nesse ponto?
 
-<h3 class="my-3 text-gray-100"> Tipos de Comunidades </h3>
+Aquele pensamento quando você chega e ve a casa que tu vai morar desarrumadassa?
 
-<v-clicks class="text-gray-200" depth="2">
+<v-click>
 
-- **Mudar ambientes inteiros:**
-  - Influenciar tendências
-  - Promover inovação
-- **Ou interrompê-los:**
-  - Organizar boicotes
-  - Espalhar opiniões negativas
+> QUEM FOI O CORNO QUE FEZ ESSA BAGUNÇA?? - Chegando em Casa, Você. 
 
-</v-clicks>
+</v-click>
+---
+layout: center
+layoutClass: gap-16
+---
 
-::right::
+# Decisões mal pensadas viram padrão
 
-<div v-if="$clicks == 2">
-  <img src="https://i.imgur.com/hOaBDGf.png">
-</div>
-<div v-if="$clicks == 3">
-  <img src="https://i.imgur.com/cWH61sC.png">
-</div>
-<div v-if="$clicks == 5">
-  <img src="https://i.imgur.com/aeufJfY.png">
-</div>
-<div v-if="$clicks == 6">
-  <img src="https://i.imgur.com/xB9dxJy.png">
-</div>
+“Vamos fazer rapidinho aqui e depois refatorar...”
 
+<v-click>
 
+> E nunca mais refatorou 😅
 
-<!-- Communities hold significant power in shaping products, services, and even industries. -->
-<!-- Their collective voice can build up or break down reputations. -->
+</v-click>
 
 ---
 layout: center
 layoutClass: gap-16
 ---
 
-## Agora você entende porque é que as comunidades são
+# Decisões mal pensadas viram padrão
 
-<h1 class="text-center mt-4" v-click> PODEROSAS </h1>
+Deixa só essa senha hardcoded... é só um teste
 
+<v-click>
 
-<!-- - Communities amplify individual voices, making them crucial for feedback and trust-building. -->
-<!-- - They play a vital role in product development and improvement. -->
+> E foi pra produção 🤡
+
+</v-click>
 
 ---
 layout: center
 layoutClass: gap-16
 ---
 
-<div class="flex flex-col space-y-4 text-center">
+# Crescimento desorganizado
 
-<h2>Beleza, vamo começar em <span class="text-primary"> DevRel</span> então </h2>
-<h3 v-click>DevRel = Developer Relations = ÁREA</h3>
-
-
-<v-click class="text-center">
-  <p>E eu vou te mostrar as "profissões" dessa área, se liga.</p>
-</v-click>
-
-</div>
-
----
-layout: whoami
-image: https://github.com/sabrinaaquino.png
-handle: "@sabrinaaquino - Qdrant"
-full_name: "Sabrina Aquino"
-has_socials: true
----
-
-# Developer Relations
-## Developer Advocate
-
-
-<v-clicks class="mt-5">
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Descrição </h3>
-
-* Linha de frente de Open Source com comunidades;
-* Pessoa extremamente técnica sobre o produto que advoga;
-
-</div>
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
-
-* Absorve opiniões negativas e converte em informações úteis para a equipe de produtos;
-* Reunir desenvolvedores em torno de novas iniciativas ou funcionalidades, aumentando o envolvimento da comunidade;
-* Busca novos jeitos de expandir contribuições dentro do open source.
-
-</div>  
-
-</v-clicks>
-
----
-layout: whoami
-image: https://github.com/erikaheidi.png
-handle: "@erikaheidi - Chainguard"
-full_name: "Erika Heidi"
-has_socials: true
----
-
-
-# Developer Relations
-## Technical Writer
-
-
-<v-clicks class="mt-5">
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Descrição </h3>
-
-* Criam guias e recursos aprofundados que permitem as pessoas desenvolvedoras utilizarem o produto de forma eficaz
-
-</div>
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
-
-* Transforma o jargão técnico complexo em conteúdo claro e digerível.
-* Ilumina características ou funcionlidades obscuras, tornando-as acessíveis a todos.
-* Atualiza continuamente a documentação para manter a informação atualizada.
-
-</div>  
-
-</v-clicks>
-
----
-layout: whoami
-image: https://github.com/luisleao.png
-handle: "@luisleao - Twilio"
-full_name: "Luis Leão"
-has_socials: true
----
-
-
-# Developer Relations
-## Developer Evangelist
-
-
-<v-clicks class="mt-5">
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Descrição </h3>
-
-* Busca novos "leads" em eventos, lives e tudo que tiver um espaço pra se apresentar;
-* Tem iniciativas engajadoras usando a ferramenta que advoga.
-
-</div>
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
-
-* Captura o interesse das pessoas desenvolvedoras através de apresentações e demonstrações cativantes.
-* Cria várias formas de conteúdo para atingir um público variado simultaneamente.
-* Identifica tendências e oportunidades para posicionar o produto de forma eficaz.
-
-</div>  
-
-</v-clicks>
-
----
-layout: whoami
-image: https://github.com/acamikuro.png
-handle: "@acamikuro - Basement Devs"
-full_name: "Camila Rosa"
-has_socials: true
----
-
-
-# Developer Relations
-## Community Manager
-
-
-<v-clicks class="mt-5">
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Descrição</h3>
-
-* Através da comunicação e do envolvimento, promove um ambiente positivo onde as pessoas desenvolvedoras se sentem valorizadas e conectadas.
-
-</div>
-
-<div>
-
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
-
-  * Cria uma atmosfera acolhedora que incentiva a participação da comunidade.
-  * Aumenta a atividade da comunidade atrvés de eventos, discussões e atualizações.
-  * Difunde as tensões e resolve os conflitos dentro da comunidade. 
-
-</div>  
-
-</v-clicks>
-
-
----
-layout: fact
-layoutClass: gap-5
----
-
-## Então, podemos entender que DevRel é um Marketing Tecnico?
+A aplicação começou pequena e agora não escala mais
 
 <v-click>
-  <div class="my-5"> <h3> Sim!</h3> </div>
+
+> O caos chegou antes da refatoração 🚀
+
+</v-click>
+
+---
+layout: center
+layoutClass: gap-16
+---
+
+# Falta de disciplina e boas práticas
+
+Sem versionamento correto, sem testes, sem documentação
+
+<v-click>
+
+> O famoso: “Confia que tá funcionando, mas se eu sair do time problema é de vocês” 🤷‍♂️
+
+</v-click>
+
+---
+layout: center
+layoutClass: gap-16
+---
+
+# Falta de disciplina e boas práticas
+
+Cada um codando do jeito que quiser
+
+<v-click>
+
+> Até os bugs são personalizados 🤣
+
+</v-click>
+
+---
+layout: center
+layoutClass: gap-16
+---
+
+# O “herói” da equipe
+
+Resolve tudo na base da gambiarra ("funciona na minha máquina")
+
+<v-click>
+
+> Até a bomba explodir 🎇
+
+</v-click>
+
+---
+layout: center
+layoutClass: gap-16
+---
+
+# O “herói” da equipe
+
+Soluções temporárias viram definitivas
+
+<v-click>
+
+> E ninguém mais quer mexer depois 🏃‍♂️💨
+
+</v-click>
+
+---
+layout: center
+layoutClass: gap-16
+---
+
+
+## E o MAIOR VILÃO DE TODOS
+
+<v-click>
+
+# LGTM? APROVA AI QUE AQUI DEU BOM
+
 </v-click>
 
 <v-click>
-  <div class="my-5"><h3>Quer dizer... Depende da perspectiva!</h3> </div>
+
+> LGTM!! APROVADO PODE MERGEAR!!! - Que Não Revisou, Revisor
+
 </v-click>
 
----
-layout: section
-layoutClass: gap-5
----
-
-
-## Developer Relations: Perpectivas da Companhia
-
-Até pq alguém tem que pagar suas contas \:p
-
----
-layout: whoami
-layoutClass: gap-5
-image: https://i.imgur.com/Ln16XoA.png
----
-
-## Quais são as tarefas de alguém que atua em DevRel?
-
-Tem uma lista bem grandinha até:
-
-<div class="flex flex-row space-x-5 text-xs">
-
-<v-clicks class="space-y-3">
-
-- **Conteúdos Educacionais e Palestras**: 
-  - Criação de tutoriais. 
-  - Realização de workshops. 
-  - Criação de documentações.
-- **Liderança e Estratégia**: 
-  - Definição de metas. 
-  - Priorização de tarefas.
-  - Gestão de equipes.
-- **Comunidade e Marca**: 
-  - Programas de construção. 
-  - Gestão de comunidades. 
-  - Distribuição de brindes.
-  - Aumentar o conhecimento da marca.
-
-</v-clicks>
-<v-clicks class="space-y-3">
-
-- **Open Source e Suporte ao Produto**: 
-  - Contribuir para o Open Source.
-  - Triagem de issues do Github.
-  - Fornecer opiniões construtivas.
-- **Desenvolvimento do Produto**: 
-  - Especificação de novas funcionalidades.
-  - Conduzir novas atualizações.
-
-</v-clicks>
-</div>
-
----
-layout: whoami
-layoutClass: gap-5
-image: https://i.imgur.com/QlzEv69.png
----
-
-## E sobre as entregas? Cadê os commit?
-
-DevRel é movido totalmente a números
-
-<v-clicks>
-
-- **Métricas Quantitativas:**
-  - Número de pessoas desenvolvedoras ativas ou utilizadoras do produto
-  - Número de perguntas respondidas em fóruns/issues no Github.
-- **Métricas Qualitativas:**
-  - Pontuações do público de palestras e workshops.
-  - Classificações da qualidade da documentação.
-  - Métricas de engajamento da comunidade.
-- **Apoiar os Objetivos Empresariais:**
-  - Marketing e vendas a partir do trabalho comunitário.
-
-</v-clicks>
-
-<div v-click class="mt-5">
-
-> Não é só sobre "quantidade" de números em si, mas a qualidade das interações geradas pelos números!
-
-</div>
-
----
-layout: whoami
-layoutClass: gap-5
-image: https://i.imgur.com/QlzEv69.png
----
-
-## Como monetizamos um Produto de Código aberto? 
-
-Isso aqui é o principal pra te dar uma noção, mas você consegue monetizar baseado na **licença do software!**
-
-<v-clicks class="text-sm">
-
-- **Licença MIT:**
-  - Pode usar, modificar, distribuir, incluuir em projetos proprietarios e revender.
-  - Precisa incluir aviso de copyright nos arquivos do projeto.
-- **Licença Apache 2.0:**
-  - Pode usar, modificar, distribuir, revender e consegue patentes relacionadas ao software.
-  - É necessário incluir o aviso de copyright, a licença e notas de alteração.
-- **Licença AGPL 3.0**
-  - Garante que o código-fonte permaneça aberto mesmo em serviços web ou SaaS.
-  - Incompatível com software proprietário, o que pode limitar a adoção comercial.
-
-</v-clicks>
-
----
-layout: whoami
-layoutClass: gap-5
-image: https://i.imgur.com/QlzEv69.png
----
-
-## Quais são esses "Sabores" de monetização? 
-
-Até porquê ter a licença não te garante uma estratégia, né? Geralmente os sabores que a gente encontra no Open Source começam com:
-
-
-<v-clicks class="text-sm">
-
-- **Produto Open Source:**
-  - Aquele primeiro momento pra você testar o produto, fazer uma PoC e ver se tem um lugar na sua empresa;
-  - Porém você não tem suporte NENHUM e nenhuma garantia que as coisas vão funcionar.
-- **Licença Enterprise:**
-  - Você paga um valor mensal pra ter total suporte caso você tenha algum problema;
-  - Porém a infraestrutura é toda sua.
-- **Cloud SaaS**
-  - Plataforma totalmente gerenciada pela empresa/produto que você contrata onde você não tem NENHUMA dor de cabeça.
-
-
-</v-clicks>
-
----
-layout: section
-layoutClass: gap-5
----
-
-
-# Mas o DevRel tá pagando mais que o Little Tiger (tigrinho)?
-
-Vamo dar uma averiguada numa das métricas
 
 
 ---
-layout: image
-image: https://i.imgur.com/51lg51l.png
-backgroundSize: contain
+layout: quote
+layoutClass: gap-16
 ---
 
----
-layout: image
-image: https://i.imgur.com/nrYXX3H.png
-backgroundSize: contain
----
+# Sabe quem passou por todas essas etapas?
+
+## Eu, provavelmente você, e muitos outros vão passar também!
+
+<br>
+
+> E tá tudo bem! Ninguém nasce sabendo, mas a parada é: vamo continuar repetindo isso até quando?
+
 
 ---
-layout: image
-image: https://i.imgur.com/5k1JLIu.png
-backgroundSize: contain
+layout: quote
+layoutClass: gap-16
 ---
+
+# O problema é quando:
+
+<v-click>
+
+## 1. Você vê acontecendo e não opina por motivos
+
+<br>
+</v-click>
+
+<v-click>
+
+### 2. Você tá revisando e tem medo de apontar por insegurança
+
+<br>
+</v-click>
+
+<v-click>
+
+#### 3. Você tá vendo a MERDA acontecer mas tem medo de ser demitido
+
+<br>
+</v-click>
+
+<v-click>
+
+> Você realmente deveria começar a se impor. Isso é mais que sênioridade, mas criar maturidade num ambiente profissional.
+
+</v-click>

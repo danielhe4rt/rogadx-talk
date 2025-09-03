@@ -8,20 +8,16 @@ Conceitos e tecnologias que irão ser citadas na palestra:
 
 ```js
 let agenda = {
+    abstraction: [
+        "what", "how", "then"
+    ],
     concepts: [
-        "devrel", "communities", "contributions"
-    ]
-    langs: [
-        'javascript', 'php', 'rust', "go", 'make'
+        'ddd', 'code_as_doc' 'enums', 'pipeline'
     ],
-    frameworks: [
-        'react', 'plasmo', 'actix', 'laravel'
+    tooling: [
+        'semantic', 'static', 'testing',
     ],
-    databases: [
-        'redis', 'scylladb'
-    ]
 };
-// Como contribuir pro open-source, talvez?
 ```
 
 ::right::
@@ -31,9 +27,9 @@ let agenda = {
 
 <h1 class="mb-3 ">Follow Up</h1>
 
-1. Developer Relations: **área** ou **cargo**?
-2. Como eu cheguei nesse mundo de DevRel? 
-3. Developer Advocate: Impressões de uma primeira viagem.
-4. Cultivando uma Comunidade e contribuindo pro Open Source.
+1. **Aplicações Legadas:** qual o conceito?
+2. **Débito Técnico:** quando devemos manter e quando devemos refatorar? 
+3. **Estruturando Ideias:** DDD do jeito mais certo possível!
+4. **Ferramental Técnico:** dando poderes até pro mais iniciantes dos juniors!
 
 </div>

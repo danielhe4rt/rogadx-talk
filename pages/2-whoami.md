@@ -12,7 +12,7 @@ has_socials: true
 Um brasileiro que faz códigos inúteis desde 2011 e gosta de ensinar pessoas sobre programação.
 
 - <mdi-briefcase-outline /> **Primeiro Emprego** - Desenvolvedor Fullstack em 2018 na W1 Finance
-- <mdi-account-tie /> **Atualmente** - Developer Advocate pela ScyllaDB
+- <mdi-account-tie /> **Atualmente** - Consultor e Instrutor 
 - <mdi-trophy /> **Conquistas Fodas** - Streamando na Twitch há 5 anos e no Partner e Microsoft MVP há 3 anos.
 - <mdi-code-braces /> **Minha Stack** - PHP, Laravel, Rust, MySQL, ScyllaDB e o que você quiser.
 - <mdi-code-tags /> **Primeira linha de código** - Criando servidores de GTA San Andreas Multiplayer em 2011 (SA:MP)

@@ -1,11 +1,10 @@
 <div class="bg-gray-900 bg-opacity-50 p-5 rounded-lg border-1 border-gray-700">
 
-# Developer Relations
-## A área mais comunicativa do "meio" dev 
+# Como NÃO explodir sua codebase
 
-Como produtos "open source" conseguem sobreviver por tanto tempo com código livre?
+## Boas práticas para manter seu projeto vivão e vivasso e ainda crescer em soft e hard skills!
 
-Nessa apresentação, abordaremos um pouco da área que mantem comunidades e produtos de para desenvolvedores ao redor do mundo!
+
 
 <div class="pt-12">
   <span @click="$slidev.nav.next" class="px-2 py-1 rounded cursor-pointer" hover="bg-white bg-opacity-10">
