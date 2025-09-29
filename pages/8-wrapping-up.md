@@ -4,7 +4,8 @@
 
 <v-click>
 
-- Muitas coisas.
+- Muitas coisas
+- e que hardskill sem o minimo de soft-skill não tem impacto.
 
 </v-click>
 
@@ -21,3 +22,19 @@ align: center
 > Esopo da bolha dev -> Guto Lanjoni
 
 </v-click>
+
+---
+layout: quote
+align: center
+---
+
+<div class="flex">
+
+<div class="flex flex-col">
+<img src="https://i.imgur.com/0HCCUtO.png">
+<span>Link pra vaga</span>
+</div>
+
+<Tweet id="1971308272968925344" />
+
+</div>

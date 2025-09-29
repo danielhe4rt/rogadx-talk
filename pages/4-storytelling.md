@@ -102,9 +102,9 @@ Você começa a fazer planos! Um dev é um solucionador de problemas e cada um t
 <v-clicks depth="1">
 
 - Pesquise ferramentas pra te ajudar a organizar o projeto.
-- Dê sugestões de melhoria no produto.
+- Dê sugestões de melhoria no fluxo do produto.
 - Não deixe coisas "erradas" passarem batidas
-- Seja a cultura que você quer ser.
+- Seja chat- a cultura que você quer ser.
 </v-clicks>
 
 <v-click>
