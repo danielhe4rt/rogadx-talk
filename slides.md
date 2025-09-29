@@ -5,7 +5,7 @@ theme: seriph
 # like them? see https://unsplash.com/collections/94734566/slidev
 background: https://i.imgur.com/HmYoBEC.png
 # some information about your slides (markdown enabled)
-title: "Developer Relations: a área mais comunicativa do meio dev (feat. RPG)"
+title: "Como não explodir sua codebase"
 info: |
   
 # apply unocss classes to the current slide

@@ -30,11 +30,12 @@ align: center
 
 <div class="flex">
 
+
+<Tweet id="1971308272968925344" class="min-w-[420px]" />
+
 <div class="flex flex-col">
 <img src="https://i.imgur.com/0HCCUtO.png">
 <span>Link pra vaga</span>
 </div>
-
-<Tweet id="1971308272968925344" />
 
 </div>
