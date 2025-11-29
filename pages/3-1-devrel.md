@@ -156,9 +156,9 @@ has_socials: true
 
 ---
 layout: whoami
-image: https://github.com/erikaheidi.png
-handle: "@erikaheidi - Chainguard"
-full_name: "Erika Heidi"
+image: http://github.com/tatyquebralayout.png
+handle: "@tatyquebralayout - Consultora"
+full_name: "Tatiana Barros"
 has_socials: true
 ---
 
@@ -358,80 +358,3 @@ DevRel é movido totalmente a números
 
 </div>
 
----
-layout: whoami
-layoutClass: gap-5
-image: https://i.imgur.com/QlzEv69.png
----
-
-## Como monetizamos um Produto de Código aberto? 
-
-Isso aqui é o principal pra te dar uma noção, mas você consegue monetizar baseado na **licença do software!**
-
-<v-clicks class="text-sm">
-
-- **Licença MIT:**
-  - Pode usar, modificar, distribuir, incluuir em projetos proprietarios e revender.
-  - Precisa incluir aviso de copyright nos arquivos do projeto.
-- **Licença Apache 2.0:**
-  - Pode usar, modificar, distribuir, revender e consegue patentes relacionadas ao software.
-  - É necessário incluir o aviso de copyright, a licença e notas de alteração.
-- **Licença AGPL 3.0**
-  - Garante que o código-fonte permaneça aberto mesmo em serviços web ou SaaS.
-  - Incompatível com software proprietário, o que pode limitar a adoção comercial.
-
-</v-clicks>
-
----
-layout: whoami
-layoutClass: gap-5
-image: https://i.imgur.com/QlzEv69.png
----
-
-## Quais são esses "Sabores" de monetização? 
-
-Até porquê ter a licença não te garante uma estratégia, né? Geralmente os sabores que a gente encontra no Open Source começam com:
-
-
-<v-clicks class="text-sm">
-
-- **Produto Open Source:**
-  - Aquele primeiro momento pra você testar o produto, fazer uma PoC e ver se tem um lugar na sua empresa;
-  - Porém você não tem suporte NENHUM e nenhuma garantia que as coisas vão funcionar.
-- **Licença Enterprise:**
-  - Você paga um valor mensal pra ter total suporte caso você tenha algum problema;
-  - Porém a infraestrutura é toda sua.
-- **Cloud SaaS**
-  - Plataforma totalmente gerenciada pela empresa/produto que você contrata onde você não tem NENHUMA dor de cabeça.
-
-
-</v-clicks>
-
----
-layout: section
-layoutClass: gap-5
----
-
-
-# Mas o DevRel tá pagando mais que o Little Tiger (tigrinho)?
-
-Vamo dar uma averiguada numa das métricas
-
-
----
-layout: image
-image: https://i.imgur.com/51lg51l.png
-backgroundSize: contain
----
-
----
-layout: image
-image: https://i.imgur.com/nrYXX3H.png
-backgroundSize: contain
----
-
----
-layout: image
-image: https://i.imgur.com/5k1JLIu.png
-backgroundSize: contain
----

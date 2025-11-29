@@ -21,12 +21,6 @@ Sinta-se à vontade para entrar em contato para perguntas ou colaborações!
   <p class="mb-2 text-gray-300 text-sm">
     
   </p>
-  <p class="mb-2 text-gray-300 text-sm">
-    <carbon-logo-github class="inline-block mr-1" /> Projeto: 
-    <a href="https://github.com/danielhe4rt/rogadx-talk" target="_blank" class="text-blue-400 hover:underline">
-      basementdevs/twitch-better-profile
-    </a>
-  </p>
 </div>
 
 

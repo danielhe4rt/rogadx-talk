@@ -6,6 +6,7 @@
 * Produtos de Código Aberto com uma boa estratégia e bem licenciados são rentáveis;
 * Há espaço pra criação de conteúdo "CLT" no meio de tecnologia;
 * Qualquer pessoa desenvolvedora consegue contribuir minimamente pro Open Source;
+* Comunidades fazem a TOTAL diferença na vida das pessoas
 
 
 ---

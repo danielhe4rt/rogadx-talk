@@ -234,3 +234,33 @@ A gente sabia disso e pra isso trouxemos uma amiga que morava lá pra poder rece
 ### Vai tomar no c# Twitch
 
 </v-click>
+
+
+
+---
+layout: center
+layoutClass: gap-16
+name: "Developer Relations: Minha perspectiva!"
+---
+
+<div class="text-center">
+
+# Mas o mais importante sobre "comunidade" pra mim é:
+
+Quem pode te por num caminho melhor pra se desenvolver como pessoa.
+
+</div>
+
+---
+layout: quote
+align: center
+---
+
+
+# “P* Daniel, vc é idiota? Se liga aqui como fazer”
+
+## sorriso_srs -> Wesley Nascimento
+
+<br>
+
+> E se dava um inicio de uma aula pro Danielzinho de 2013

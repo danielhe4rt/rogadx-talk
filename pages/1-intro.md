@@ -1,7 +1,7 @@
 <div class="bg-gray-900 bg-opacity-50 p-5 rounded-lg border-1 border-gray-700">
 
 # Developer Relations
-## A área mais comunicativa do "meio" dev 
+## Developer Relations: Tecnologia como Catalisadora de Comunidades 
 
 Como produtos "open source" conseguem sobreviver por tanto tempo com código livre?
 
