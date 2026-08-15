@@ -16,9 +16,9 @@ layoutClass: gap-16
 
 ## Provavelmente você faz parte de uma comunidade
 
-<h3 class="my-3 text-gray-100"> Tipos de comunidade </h3>
+<h3 class="my-3 text-gray-800 dark:text-gray-100"> Tipos de comunidade </h3>
 
-<v-clicks class="text-gray-200" depth="2">
+<v-clicks class="text-gray-700 dark:text-gray-200" depth="2">
 
 - **Jogos:**
   - *LevelUp Games*
@@ -56,9 +56,9 @@ layoutClass: gap-16
 
 ## O poder das comunidades
 
-<h3 class="my-3 text-gray-100"> Tipos de Comunidades </h3>
+<h3 class="my-3 text-gray-800 dark:text-gray-100"> Tipos de Comunidades </h3>
 
-<v-clicks class="text-gray-200" depth="2">
+<v-clicks class="text-gray-700 dark:text-gray-200" depth="2">
 
 - **Mudar ambientes inteiros:**
   - Influenciar tendências
@@ -135,7 +135,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Descrição </h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Descrição </h3>
 
 * Linha de frente de Open Source com comunidades;
 * Pessoa extremamente técnica sobre o produto que advoga;
@@ -144,7 +144,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Habilidades </h3>
 
 * Absorve opiniões negativas e converte em informações úteis para a equipe de produtos;
 * Reunir desenvolvedores em torno de novas iniciativas ou funcionalidades, aumentando o envolvimento da comunidade;
@@ -156,9 +156,9 @@ has_socials: true
 
 ---
 layout: whoami
-image: http://github.com/tatyquebralayout.png
-handle: "@tatyquebralayout - Consultora"
-full_name: "Tatiana Barros"
+image: https://github.com/erikaheidi.png
+handle: "@erikaheidi - Chainguard"
+full_name: "Erika Heidi"
 has_socials: true
 ---
 
@@ -171,7 +171,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Descrição </h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Descrição </h3>
 
 * Criam guias e recursos aprofundados que permitem as pessoas desenvolvedoras utilizarem o produto de forma eficaz
 
@@ -179,7 +179,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Habilidades </h3>
 
 * Transforma o jargão técnico complexo em conteúdo claro e digerível.
 * Ilumina características ou funcionlidades obscuras, tornando-as acessíveis a todos.
@@ -206,7 +206,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Descrição </h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Descrição </h3>
 
 * Busca novos "leads" em eventos, lives e tudo que tiver um espaço pra se apresentar;
 * Tem iniciativas engajadoras usando a ferramenta que advoga.
@@ -215,7 +215,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Habilidades </h3>
 
 * Captura o interesse das pessoas desenvolvedoras através de apresentações e demonstrações cativantes.
 * Cria várias formas de conteúdo para atingir um público variado simultaneamente.
@@ -242,7 +242,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Descrição</h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Descrição</h3>
 
 * Através da comunicação e do envolvimento, promove um ambiente positivo onde as pessoas desenvolvedoras se sentem valorizadas e conectadas.
 
@@ -250,7 +250,7 @@ has_socials: true
 
 <div>
 
-<h3 class="mt-5 text-slate mb-2">Habilidades </h3>
+<h3 class="mt-5 mb-2 text-gray-800 dark:text-gray-200">Habilidades </h3>
 
   * Cria uma atmosfera acolhedora que incentiva a participação da comunidade.
   * Aumenta a atividade da comunidade atrvés de eventos, discussões e atualizações.

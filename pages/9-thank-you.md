@@ -16,9 +16,9 @@ Conecta com o primo ai <3
 Sinta-se à vontade para entrar em contato para perguntas ou colaborações!
 
 
-<div class="mt-4 p-4 bg-gray-800 rounded-lg shadow-md">
-  <h3 class="text-md font-semibold mb-2 text-white">Sobre esta apresentação</h3>
-  <p class="mb-2 text-gray-300 text-sm">
+<div class="mt-4 p-4 rounded-lg shadow-md bg-gray-100 dark:bg-gray-800 border border-gray-200 dark:border-gray-700">
+  <h3 class="text-md font-semibold mb-2 text-gray-900 dark:text-white">Sobre esta apresentação</h3>
+  <p class="mb-2 text-sm text-gray-600 dark:text-gray-300">
     
   </p>
 </div>
